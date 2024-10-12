@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GIS Zoning Maps - Main Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #333;
+        }
+
+        .links {
+            margin-top: 20px;
+        }
+
+        a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #00bfff;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        a:hover {
+            background-color: #0088cc;
+        }
+
+        .footer {
+            margin-top: 50px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>GIS Zoning Maps</h1>
+        <p>Select a location to view the zoning maps:</p>
+
+        <div class="links">
+            <a href="westminster-map.html">Westminster, CA</a>
+            <a href="san-diego-map.html">San Diego, CA</a>
+        </div>
+
+        <div class="footer">
+            <p>Powered by Google Maps API & GeoJSON data</p>
+        </div>
+    </div>
+
+</body>
+</html>
